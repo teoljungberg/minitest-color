@@ -1,7 +1,4 @@
-require "minitest/color/version"
+require 'minitest'
 
-module Minitest
-  module Color
-    # Your code goes here...
-  end
-end
+Minitest.load_plugins
+Minitest::Color.color!
