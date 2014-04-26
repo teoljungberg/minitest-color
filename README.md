@@ -1,6 +1,6 @@
 # Minitest::Color
 
-TODO: Write a gem description
+A color format for [minitest](https://github.com/seattlerb/minitest)
 
 ## Installation
 
@@ -16,13 +16,24 @@ Or install it yourself as:
 
     $ gem install minitest-color
 
+## Requirements
+
+Minitest >= 5.0.0
+
 ## Usage
 
-TODO: Write usage instructions here
+Just pass `--color` as an argument while running your tests
+
+## What's the difference?
+It colorizes your tests depending on their success
+
+- `pass` => Green
+- `skip` => Yellow
+- `fail` => Red
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/minitest-color/fork )
+1. Fork it ( http://github.com/teoljungberg/minitest-color/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
