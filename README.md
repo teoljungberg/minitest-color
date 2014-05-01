@@ -22,7 +22,8 @@ Minitest >= 5.0.0
 
 ## Usage
 
-Just pass `--color` as an argument while running your tests
+Either pass `--color` as an argument while running your tests,
+or `require 'minitest/color'` in your tests
 
 ## What's the difference?
 It colorizes your tests depending on their success
