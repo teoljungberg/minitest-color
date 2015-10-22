@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "minitest-color"
   spec.version       = "0.0.1"
   spec.authors       = ["Teo Ljungberg"]
-  spec.email         = ["teo.ljungberg@gmail.com"]
+  spec.email         = ["teo@teoljungberg.com"]
   spec.summary       = "Color formatter for Minitest"
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/teoljungberg/minitest-color"
